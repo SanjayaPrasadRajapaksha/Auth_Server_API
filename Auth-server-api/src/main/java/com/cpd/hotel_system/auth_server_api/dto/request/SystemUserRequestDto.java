@@ -1,4 +1,4 @@
-package com.cpd.hotel_system.dto.request;
+package com.cpd.hotel_system.auth_server_api.dto.request;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

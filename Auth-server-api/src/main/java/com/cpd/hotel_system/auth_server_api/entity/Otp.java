@@ -1,4 +1,4 @@
-package com.cpd.hotel_system.entity;
+package com.cpd.hotel_system.auth_server_api.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
