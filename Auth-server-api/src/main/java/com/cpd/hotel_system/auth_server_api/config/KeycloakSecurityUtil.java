@@ -11,16 +11,22 @@ public class KeycloakSecurityUtil {
 
     @Value("${keycloak.auth-server-url}")
     private String serverUrl;
+
     @Value("${keycloak.realm}")
     private String realm;
+
     @Value("${keycloak.client-id}")
     private String clientId;
+
     @Value("${keycloak.grant-type}")
     private String grantType;
+
     @Value("${keycloak.username}")
     private String username;
+
     @Value("${keycloak.password}")
     private String password;
+    
     @Value("${keycloak.client-secret}")
     private String secret;
 
