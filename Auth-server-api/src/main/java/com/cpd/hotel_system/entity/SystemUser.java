@@ -6,7 +6,7 @@ import lombok.*;
 import java.time.Instant;
 
 @Entity
-@Table(name="system_user")
+@Table(name = "system_user")
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
@@ -56,4 +56,6 @@ public class SystemUser {
     @Column(name = "updated_at")
     private Instant updatedAt;
 
+    @OneToOne(mappedBy = "systemUser", cascade = CascadeType.ALL)
+    private Otp otp;
 }
